@@ -97,11 +97,20 @@ Possible Extensions
 . Model saving and loading 
 
  Project Structure
+ 
 .
 ├── network.py        # Manages layers, loss function, and training loop
+
 ├── layer.py          # Dense layer implementation (forward & backward)
+
 ├── optimizers.py     # Optimizers (SGD, Adam)
+
 ├── functions.py      # Activation functions (ReLU, Sigmoid, Tanh)
+
 ├── losses.py         # Loss functions (e.g. MSE)
+
+
+
+
 ├── neuron.py         # Standalone single-neuron implementation (educational)
 └── test.py           # Testing and experimentation script
